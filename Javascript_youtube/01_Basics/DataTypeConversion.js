@@ -48,6 +48,48 @@ let someNumber= 33
  console.log(stringNumber);
  console.log(typeof stringNumber);
  
+ // ************************Operations *************************
+
+ let posvalue=3
+ let negvalue =-posvalue
+ console.log(negvalue);
+
+ let str1="hello"
+ let str2="World"
+
+ let str3= str1 + str2
+ console.log(str3);
+
+ console.log("1" +2); // 12
+ console.log(1+ "2"); //12
+ console.log("1" + 2 +2); //122
+ console.log(1+2+"2");//32
+
+ console.log(+true); //1
+ console.log(+""); //0
+
+ let num1,num2, num3
+  num1 = num2 = num3 = 2+2
+
+  let gameCounter= 100
+  console.log(++gameCounter) //101
+  console.log(gameCounter);//101
+
+  let postfix=100
+  console.log(postfix++) //100
+  console.log(postfix);//101
+  
+  
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
  
 
 
